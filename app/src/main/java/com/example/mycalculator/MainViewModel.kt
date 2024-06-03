@@ -7,7 +7,7 @@ import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.math.tan
 
-class MainViewModel : ViewModel() {
+   class MainViewModel : ViewModel() {
 
     private val _displayText = MutableLiveData("0")
     val displayText: LiveData<String> get() = _displayText
